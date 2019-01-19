@@ -6,9 +6,9 @@ geo data conversions used to plug into existing geospatial ETL workflows
 
 first define database connections variables:
 
-db = "db"
-user = "user"
+db = "database name"
+user = "database user name"
 host = "host"
-passw = "passw"
+passw = "password for user name"
 
 **shp2postgis(**"/GIS_Data/shp/city_boundaries.shp", "prod_data.cities"**)**
