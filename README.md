@@ -11,4 +11,4 @@ user = "database user name"
 host = "host"
 passw = "password for user name"
 
-shp2postgis("/GIS_Data/shp/city_boundaries.shp", "prod_data.cities")
+load2postgis("/GIS_Data/shp/city_boundaries.shp", "prod_data.cities")
